@@ -1,0 +1,203 @@
+.gift-logo{
+    height: 70px;
+    width: 70px;
+}
+#navitem1{
+    color: rgb(36, 28, 28);
+}
+#navitem2{
+    color: rgb(36, 28, 28);
+}
+#navitem3{
+    color: rgb(36, 28, 28);
+}
+#navitem4{
+    color: rgb(36, 28, 28);
+}
+#navitem5{
+    color: rgb(36, 28, 28);
+}
+.primary-secion-bg-container{
+    background-color: rgb(195, 255, 235);
+}
+
+.gift-product-section{
+    background-color: rgb(165, 239, 252);
+}
+.gift-product-card-sectcion{
+    background-color: rgb(245, 245, 173);
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 7px;
+
+}
+.product-section-card-heading{
+    font-size: 15px;
+    padding-top: 7px;
+}
+.product-section-card-image{
+    padding-bottom: 7px;
+    height: 90px;
+    width: 90px;
+}
+
+.top-seller-image-1{
+    width: 70%;
+    margin: 20px;
+}
+.top-seller-image{
+    width: 100%;
+    margin: 25px;
+}
+.gift-product-section-heading{
+    font-size: 28px;
+    font-family: sans-serif;
+
+}
+
+.products-section{
+    background-image: radial-gradient(rgb(248, 248, 93),rgb(245, 190, 87));
+padding: 12px;
+}
+.product-section-card{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    padding: 6px;
+}
+.product-card-all-image{
+    height: 130px;
+    width: 190px;
+}
+.highlight{
+    font-family: roboto;
+    font-weight: bold;
+    font-style: inherit;
+}
+.view-detail-link{
+    font-size: 9px;
+
+}
+.follow-us-section-main-gift{
+    background-image: radial-gradient(rgb(112, 211, 250),rgb(66, 119, 254));
+    text-align: center;
+    font-size: 28px;
+    font-family: cursive;
+    color:rgb(212, 255, 212);
+    padding: 12px;
+}
+.follow-us-section-main-gift-icons{
+    padding: 8px;
+    margin-bottom: 12px;
+    color: rgb(149, 219, 44);
+}
+.follow-us-section-main-gift-icons-button{
+    background-color: rgb(223, 253, 223);
+    font-size: 27px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.gift-bottom-section{
+    background-image: radial-gradient( rgb(216, 215, 215),rgb(246, 171, 171));
+    padding: 12px;
+    text-align: center;
+}
+.bottom-section-heading{
+    height: 60px;
+    width: 70px;
+}
+.product-detailed-view-section{
+    background-color: rgb(175, 248, 226);
+    padding-top: 20px;
+}
+.product-detailed-view-heading{
+    font-size: 29px;
+    font-family: monospace;
+}
+.about-gift-card{
+    background-color: aliceblue;
+    margin: 12px;
+    padding: 12px;
+}
+.product-detailes-section{
+    background-color: aliceblue;
+    margin: 12px;
+    padding: 12px;
+}
+.order-contact-detailes{
+    background-color: aliceblue;
+    margin: 12px;
+    padding: 12px;
+}
+.follow-us-section{
+    background-image: radial-gradient(rgb(53, 53, 194),rgb(71, 166, 71));
+    padding: 12px;
+    margin: 12px;
+    text-align: center;
+    color: orange;
+}
+.follow-us-icons{
+   padding: 7px;
+   font-size: 29px;
+}
+.follow-us-icon{
+    background-color: blanchedalmond;
+    padding: 8px;
+    margin: 9xc;
+    border-radius: 50%;
+    color: black;
+}
+.detailed-view-button-section{
+    text-align: center;
+}
+.button-order-brows-more{
+    height: 38px;
+    width: 140px;
+    border: white;
+    border-radius: 0px 8px;
+    background-color: rgb(207, 247, 63);
+}
+.button-order-buy-now{
+    height: 38px;
+    width: 140px;
+    border: white;
+    border-radius: 0px 8px;
+    background-color: yellow;
+    
+}
+.buy-now-section{
+    background-color: antiquewhite;
+    padding: 12px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buy-now-section-contact-detailes-heading{
+    font-size: 28px;
+    font-family: "roboto";
+    font-weight: 500;
+}
+#socialMediaRedirect1{
+    color: black;
+}
+#socialMediaRedirect2{
+    color: black;
+}
+.buy-now-section-contact-detailes-section{
+    background-color: aliceblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding: 12px;
+    padding-left: 25px;
+}
+.button-back{
+    border-color: grey;
+    border-width: 1px;
+    border-radius: 0px 12px;
+    height: 38px;
+    width: 140px;
+}

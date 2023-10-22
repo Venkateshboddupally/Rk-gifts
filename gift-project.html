@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="gift-project.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5d281d287f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="sectionHome">
+      <div>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img src="https://res.cloudinary.com/dkscy4hg2/image/upload/v1692710086/rk_logo_zjjmqa.jpg" class="gift-logo"/>
+              </a>
+              <div>
+                  <a>nothing</a>
+              </div>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                  <a class="nav-link active" href="#" id="navitem1">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#" id="navitem2">Features</a>
+                  <a class="nav-link" href="#" id="navitem3">Pricing</a>
+                  <a class="nav-link" href="#" id="navitem4">Pricing</a>
+                  <a class="nav-link" href="#" id="navitem5">Pricing</a>
+                </div>
+              </div>
+            </div>
+            </nav>
+      </div>
+      <div class="primary-secion-bg-container pb-5">
+          <div class="container">
+              <div class="row">
+                <div class="col-12 col-md-12 col-lg-5 order-lg-1">
+                <div> 
+                  <h1 class="courosel-heading-primary-section">
+                  Top Sells
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                    </svg>
+                  </h1>
+                </div>
+                  <div>
+                      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                          <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                          </ol>
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="https://img.freepik.com/free-vector/realistic-raksha-bandhan-illustration_52683-66020.jpg?w=740&t=st=1694620907~exp=1694621507~hmac=6306451e67d864c91923dfd76cef85e15346eaf6f165f6b3efe64c84a1e3925b" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://img.freepik.com/free-vector/hand-painted-watercolor-butterfly-birthday-invitation-template-with-photo_23-2148976152.jpg?w=740&t=st=1694621001~exp=1694621601~hmac=f73a4dc7c6be9bec950763b49d8c642e005c1be17f7130816bbc5167ca5699e7" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://img.freepik.com/free-vector/engagement-invitation-template-with-photo_52683-42969.jpg?w=740&t=st=1694621071~exp=1694621671~hmac=596a6270bb4779b055e2e56985b009c1f4afaa954314b8400e2908fee6093782" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="https://img.freepik.com/free-psd/diwali-celebration-instagram-posts-collection_23-2149657594.jpg?w=740&t=st=1694621425~exp=1694622025~hmac=a06ab330e35e01856f96f6951777bcae5fc7cef08ffb563e3a7229e89bb59ba6" class="d-block w-100" alt="...">
+                            </div>
+                          </div>
+                          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                          </a>
+                          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                          </a>
+                        </div>
+                    </div>
+                  </div>
+              <div class="col-lg-4 d-none d-lg-block order-lg-2">
+                  <div class="pt-5">
+                      <div class="top-seller-images-section">
+                        <img src="https://img.freepik.com/free-photo/close-up-hand-holding-cup_23-2148727082.jpg?w=740&t=st=1694626964~exp=1694627564~hmac=ec1d3631389e7fd56c66e0622ed9e9a453a96c9a423fc3f291cd6426b1ebd7af" class="top-seller-image"/>
+                      </div> 
+                  </div>
+              </div>
+              <div class="col-lg-3 d-none d-lg-block order-lg-3">
+                <div class="pt-5">
+                  <div class="top-seller-images-section">
+                    <img src="https://img.freepik.com/free-photo/close-up-hand-holding-cup_23-2148727082.jpg?w=740&t=st=1694626964~exp=1694627564~hmac=ec1d3631389e7fd56c66e0622ed9e9a453a96c9a423fc3f291cd6426b1ebd7af" class="top-seller-image-1"/>
+                  </div>
+                  <div class="top-seller-images-section"> 
+                    <img src="https://img.freepik.com/free-photo/close-up-hand-holding-cup_23-2148727082.jpg?w=740&t=st=1694626964~exp=1694627564~hmac=ec1d3631389e7fd56c66e0622ed9e9a453a96c9a423fc3f291cd6426b1ebd7af" class="top-seller-image-1"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="gift-product-section pb-4">
+        <div class="container">
+          <div class="row">
+            <h1 class="gift-product-section-heading pt-2">Gift Products</h1>
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="gift-product-card-sectcion">
+                    <h1 class="product-section-card-heading">Birthday Gifts</h1>
+                    <img src="https://img.freepik.com/free-vector/happy-birthday-background-flat-style_23-2148249934.jpg?w=740&t=st=1694623098~exp=1694623698~hmac=87f12329b2816f5684aaac177d5d61b1193b5ff2d1850375147ce102da83a0ee" class="product-section-card-image"/>
+                  </div>
+                  <div class="gift-product-card-sectcion">
+                    <h1 class="product-section-card-heading">Birthday Gifts</h1>
+                    <img src="https://img.freepik.com/free-vector/happy-birthday-background-flat-style_23-2148249934.jpg?w=740&t=st=1694623098~exp=1694623698~hmac=87f12329b2816f5684aaac177d5d61b1193b5ff2d1850375147ce102da83a0ee" class="product-section-card-image"/>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="gift-product-card-sectcion">
+                    <h1 class="product-section-card-heading">Birthday Gifts</h1>
+                    <img src="https://img.freepik.com/free-vector/happy-birthday-background-flat-style_23-2148249934.jpg?w=740&t=st=1694623098~exp=1694623698~hmac=87f12329b2816f5684aaac177d5d61b1193b5ff2d1850375147ce102da83a0ee" class="product-section-card-image"/>
+                  </div>
+                  <div class="gift-product-card-sectcion">
+                    <h1 class="product-section-card-heading">Birthday Gifts</h1>
+                    <img src="https://img.freepik.com/free-vector/happy-birthday-background-flat-style_23-2148249934.jpg?w=740&t=st=1694623098~exp=1694623698~hmac=87f12329b2816f5684aaac177d5d61b1193b5ff2d1850375147ce102da83a0ee" class="product-section-card-image"/>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="gift-product-card-sectcion">
+                    <h1 class="product-section-card-heading">Birthday Gifts</h1>
+                    <img src="https://img.freepik.com/free-vector/happy-birthday-background-flat-style_23-2148249934.jpg?w=740&t=st=1694623098~exp=1694623698~hmac=87f12329b2816f5684aaac177d5d61b1193b5ff2d1850375147ce102da83a0ee" class="product-section-card-image"/>
+                  </div>
+                  <div class="gift-product-card-sectcion">
+                    <h1 class="product-section-card-heading">Birthday Gifts</h1>
+                    <img src="https://img.freepik.com/free-vector/happy-birthday-background-flat-style_23-2148249934.jpg?w=740&t=st=1694623098~exp=1694623698~hmac=87f12329b2816f5684aaac177d5d61b1193b5ff2d1850375147ce102da83a0ee" class="product-section-card-image"/>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="gift-product-card-sectcion">
+                    <h1 class="product-section-card-heading">Birthday Gifts</h1>
+                    <img src="https://img.freepik.com/free-vector/happy-birthday-background-flat-style_23-2148249934.jpg?w=740&t=st=1694623098~exp=1694623698~hmac=87f12329b2816f5684aaac177d5d61b1193b5ff2d1850375147ce102da83a0ee" class="product-section-card-image"/>
+                  </div>
+                  <div class="gift-product-card-sectcion">
+                    <h1 class="product-section-card-heading">Birthday Gifts</h1>
+                    <img src="https://img.freepik.com/free-vector/happy-birthday-background-flat-style_23-2148249934.jpg?w=740&t=st=1694623098~exp=1694623698~hmac=87f12329b2816f5684aaac177d5d61b1193b5ff2d1850375147ce102da83a0ee" class="product-section-card-image"/>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="products-section pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mt-2"><h2 class="product-section-heading">Mobile Case</h2></div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">
+                        <h3 class="prosuct-name-card">Toy cases</h3>
+                        <img src="https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-65707.jpg?2&w=740&t=st=1694711644~exp=1694712244~hmac=b8cb2571242b8558133c80f580374bbd317962de55cd9b3cbb3ce593b6ed0984" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">
+                        <h3 class="prosuct-name-card">Toy cases</h3>
+                        <img src="https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-65707.jpg?2&w=740&t=st=1694711644~exp=1694712244~hmac=b8cb2571242b8558133c80f580374bbd317962de55cd9b3cbb3ce593b6ed0984" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">
+                        <h3 class="prosuct-name-card">Toy cases</h3>
+                        <img src="https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-65707.jpg?2&w=740&t=st=1694711644~exp=1694712244~hmac=b8cb2571242b8558133c80f580374bbd317962de55cd9b3cbb3ce593b6ed0984" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">
+                        <h3 class="prosuct-name-card">Toy cases</h3>
+                        <img src="https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-65707.jpg?2&w=740&t=st=1694711644~exp=1694712244~hmac=b8cb2571242b8558133c80f580374bbd317962de55cd9b3cbb3ce593b6ed0984" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 mt-2">
+                    <h2 class="product-section-heading">Lunch Box</h2>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Lunch Box</h3>
+                        <img src="https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-65707.jpg?2&w=740&t=st=1694711644~exp=1694712244~hmac=b8cb2571242b8558133c80f580374bbd317962de55cd9b3cbb3ce593b6ed0984" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Lunch Box</h3>
+                        <img src="https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-65707.jpg?2&w=740&t=st=1694711644~exp=1694712244~hmac=b8cb2571242b8558133c80f580374bbd317962de55cd9b3cbb3ce593b6ed0984" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Lunch Box</h3>
+                        <img src="https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-65707.jpg?2&w=740&t=st=1694711644~exp=1694712244~hmac=b8cb2571242b8558133c80f580374bbd317962de55cd9b3cbb3ce593b6ed0984" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Lunch Box</h3>
+                        <img src="https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-65707.jpg?2&w=740&t=st=1694711644~exp=1694712244~hmac=b8cb2571242b8558133c80f580374bbd317962de55cd9b3cbb3ce593b6ed0984" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Lunch Box</h3>
+                        <img src="https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-65707.jpg?2&w=740&t=st=1694711644~exp=1694712244~hmac=b8cb2571242b8558133c80f580374bbd317962de55cd9b3cbb3ce593b6ed0984" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Lunch Box</h3>
+                        <img src="https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-65707.jpg?2&w=740&t=st=1694711644~exp=1694712244~hmac=b8cb2571242b8558133c80f580374bbd317962de55cd9b3cbb3ce593b6ed0984" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Lunch Box</h3>
+                        <img src="https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-65707.jpg?2&w=740&t=st=1694711644~exp=1694712244~hmac=b8cb2571242b8558133c80f580374bbd317962de55cd9b3cbb3ce593b6ed0984" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Lunch Box</h3>
+                        <img src="https://img.freepik.com/free-psd/premium-mobile-phone-screen-mockup-template_53876-65707.jpg?2&w=740&t=st=1694711644~exp=1694712244~hmac=b8cb2571242b8558133c80f580374bbd317962de55cd9b3cbb3ce593b6ed0984" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 mt-2">
+                    <h2 class="product-section-heading">Mug & Pillows</h2>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Mug & pillow</h3>
+                        <img src="https://img.freepik.com/free-photo/inspirational-quote-written-mug_23-2149261735.jpg?w=740&t=st=1694792345~exp=1694792945~hmac=1d74bfa23697588fa04d594de6a0bc3eb1ccfab18f257ffb4f3f6524bcd57852" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Mug & pillow</h3>
+                        <img src="https://img.freepik.com/free-photo/inspirational-quote-written-mug_23-2149261735.jpg?w=740&t=st=1694792345~exp=1694792945~hmac=1d74bfa23697588fa04d594de6a0bc3eb1ccfab18f257ffb4f3f6524bcd57852" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Mug & pillow</h3>
+                        <img src="https://img.freepik.com/free-photo/inspirational-quote-written-mug_23-2149261735.jpg?w=740&t=st=1694792345~exp=1694792945~hmac=1d74bfa23697588fa04d594de6a0bc3eb1ccfab18f257ffb4f3f6524bcd57852" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Mug & pillow</h3>
+                        <img src="https://img.freepik.com/free-photo/inspirational-quote-written-mug_23-2149261735.jpg?w=740&t=st=1694792345~exp=1694792945~hmac=1d74bfa23697588fa04d594de6a0bc3eb1ccfab18f257ffb4f3f6524bcd57852" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 mt-2">
+                    <h2 class="product-section-heading">Rakhi</h2>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Mug & pillow</h3>
+                        <img src="https://img.freepik.com/free-vector/realistic-raksha-bandhan-illustration_52683-66020.jpg?w=740&t=st=1694793059~exp=1694793659~hmac=89c2d113f62bbb8d25b61e303710ce12a2bd13aec0449f5ed8d9a3d4a4706880" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Mug & pillow</h3>
+                        <img src="https://img.freepik.com/free-vector/realistic-raksha-bandhan-illustration_52683-66020.jpg?w=740&t=st=1694793059~exp=1694793659~hmac=89c2d113f62bbb8d25b61e303710ce12a2bd13aec0449f5ed8d9a3d4a4706880" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Mug & pillow</h3>
+                        <img src="https://img.freepik.com/free-vector/realistic-raksha-bandhan-illustration_52683-66020.jpg?w=740&t=st=1694793059~exp=1694793659~hmac=89c2d113f62bbb8d25b61e303710ce12a2bd13aec0449f5ed8d9a3d4a4706880" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Mug & pillow</h3>
+                        <img src="https://img.freepik.com/free-vector/realistic-raksha-bandhan-illustration_52683-66020.jpg?w=740&t=st=1694793059~exp=1694793659~hmac=89c2d113f62bbb8d25b61e303710ce12a2bd13aec0449f5ed8d9a3d4a4706880" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 mt-2">
+                    <h2 class="product-section-heading">All Other Gifts</h2>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                            
+                        <h3 class="prosuct-name-card">Gift</h3>
+                        <img src="https://img.freepik.com/free-photo/christmas-festive-composition-with-three-gift-boxes-bokeh-background-close-up_169016-6596.jpg?w=740&t=st=1694793335~exp=1694793935~hmac=22f789af05a2348cff85761046c56e86e2e90ebadc9378afce40660bc8170f6b" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Gift</h3>
+                        <img src="https://img.freepik.com/free-photo/christmas-festive-composition-with-three-gift-boxes-bokeh-background-close-up_169016-6596.jpg?w=740&t=st=1694793335~exp=1694793935~hmac=22f789af05a2348cff85761046c56e86e2e90ebadc9378afce40660bc8170f6b" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Gift</h3>
+                        <img src="https://img.freepik.com/free-photo/christmas-festive-composition-with-three-gift-boxes-bokeh-background-close-up_169016-6596.jpg?w=740&t=st=1694793335~exp=1694793935~hmac=22f789af05a2348cff85761046c56e86e2e90ebadc9378afce40660bc8170f6b" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Gift</h3>
+                        <img src="https://img.freepik.com/free-photo/christmas-festive-composition-with-three-gift-boxes-bokeh-background-close-up_169016-6596.jpg?w=740&t=st=1694793335~exp=1694793935~hmac=22f789af05a2348cff85761046c56e86e2e90ebadc9378afce40660bc8170f6b" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Gift</h3>
+                        <img src="https://img.freepik.com/free-photo/christmas-festive-composition-with-three-gift-boxes-bokeh-background-close-up_169016-6596.jpg?w=740&t=st=1694793335~exp=1694793935~hmac=22f789af05a2348cff85761046c56e86e2e90ebadc9378afce40660bc8170f6b" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Gift</h3>
+                        <img src="https://img.freepik.com/free-photo/christmas-festive-composition-with-three-gift-boxes-bokeh-background-close-up_169016-6596.jpg?w=740&t=st=1694793335~exp=1694793935~hmac=22f789af05a2348cff85761046c56e86e2e90ebadc9378afce40660bc8170f6b" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Gift</h3>
+                        <img src="https://img.freepik.com/free-photo/christmas-festive-composition-with-three-gift-boxes-bokeh-background-close-up_169016-6596.jpg?w=740&t=st=1694793335~exp=1694793935~hmac=22f789af05a2348cff85761046c56e86e2e90ebadc9378afce40660bc8170f6b" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Gift</h3>
+                        <img src="https://img.freepik.com/free-photo/christmas-festive-composition-with-three-gift-boxes-bokeh-background-close-up_169016-6596.jpg?w=740&t=st=1694793335~exp=1694793935~hmac=22f789af05a2348cff85761046c56e86e2e90ebadc9378afce40660bc8170f6b" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Gift</h3>
+                        <img src="https://img.freepik.com/free-photo/christmas-festive-composition-with-three-gift-boxes-bokeh-background-close-up_169016-6596.jpg?w=740&t=st=1694793335~exp=1694793935~hmac=22f789af05a2348cff85761046c56e86e2e90ebadc9378afce40660bc8170f6b" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Gift</h3>
+                        <img src="https://img.freepik.com/free-photo/christmas-festive-composition-with-three-gift-boxes-bokeh-background-close-up_169016-6596.jpg?w=740&t=st=1694793335~exp=1694793935~hmac=22f789af05a2348cff85761046c56e86e2e90ebadc9378afce40660bc8170f6b" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Gift</h3>
+                        <img src="https://img.freepik.com/free-photo/christmas-festive-composition-with-three-gift-boxes-bokeh-background-close-up_169016-6596.jpg?w=740&t=st=1694793335~exp=1694793935~hmac=22f789af05a2348cff85761046c56e86e2e90ebadc9378afce40660bc8170f6b" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 mt-4">
+                    <div class="product-section-card" onclick="display('sectionProductDetailedView')">                           
+                        <h3 class="prosuct-name-card">Gift</h3>
+                        <img src="https://img.freepik.com/free-photo/christmas-festive-composition-with-three-gift-boxes-bokeh-background-close-up_169016-6596.jpg?w=740&t=st=1694793335~exp=1694793935~hmac=22f789af05a2348cff85761046c56e86e2e90ebadc9378afce40660bc8170f6b" class="product-card-all-image"/>
+                        <p>price :
+                            <span class="highlight">300rs</span>
+                            <a href="#sectionProductDetailedView" class="view-detail-link">view details</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div  class="follow-us-section-main-gift">
+        <div class="conatiner">
+            <div class="row">
+                <div class="col-12">
+                    <h1>Follow Us</h1>
+                    <div class="follow-us-section-main-gift-icons">
+                        <i class="fa-brands fa-instagram follow-us-section-main-gift-icons-button"></i>
+                        <i class="fa-brands fa-facebook follow-us-section-main-gift-icons-button"></i>
+                        <i class="fa-brands fa-whatsapp follow-us-section-main-gift-icons-button"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="gift-bottom-section">
+        <div class="conatiner">
+            <div class="row">
+                <div class="col-12 pt-3">
+                    <img src="https://res.cloudinary.com/dkscy4hg2/image/upload/v1692710086/rk_logo_zjjmqa.jpg" class="bottom-section-heading"/>
+                </div>
+                <div class="col-12 pt-3 pb-3">
+                    <h3 class="bottom-section-descripction">rk.gifts.best.gifts@.com</h3>
+                    <p>ranishkalyan123@gmail.com</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>  
+    <div id="sectionProductDetailedView">
+      <div class="product-detailed-view-section">
+          <div class="container">
+              <div class="row">
+                      <div class="col-12">
+                          <h2 class="product-detailed-view-heading">Birthday Gift
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                          </svg>
+                          </h2>
+                      </div>
+                          <div class="col-12 col-md-12 col-lg-5">
+                              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                  <ol class="carousel-indicators">
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                  </ol>
+                                  <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                      <img src="https://img.freepik.com/free-vector/realistic-golden-confetti-background_52683-26885.jpg?w=740&t=st=1694688962~exp=1694689562~hmac=32568626744ea07307eb09f08c79890800cbf86a4c523783adbd9dd7543b516b" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                      <img src="https://img.freepik.com/free-vector/grand-opening_52683-8452.jpg?w=740&t=st=1694689006~exp=1694689606~hmac=1538bfbf81ded58a392ea8e6a68c284fea1cae547b1d7ce7b4d1a881474f85d6" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                      <img src="https://img.freepik.com/free-photo/merry-christmas-red-background_1361-3542.jpg?w=740&t=st=1694689046~exp=1694689646~hmac=614670357aec210836ed407ff8c9af626b1cef031356c0a2ab7cc6b34f423971" class="d-block w-100" alt="...">
+                                  </div>
+                                  </div>
+                                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Previous</span>
+                                  </a>
+                                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="sr-only">Next</span>
+                                  </a>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-12 col-lg-6 about-gift-card mt-4">
+                              <h2 class="product-detailed-view-heading">About Gift</h2>
+                              <p>The gift is very cool and goog lookig oil paint this is specially made in the Delhi and colkatta only we are very carefull whene taking it from shipping and other things We are maintaining a good outcomes.</p>
+                          </div>
+                          <div class="col-12 col-md-12 col-lg-5 product-detailes-section mt-4"> 
+                              <div class="">
+                                  <div class="">
+                                      <h2 class="product-detailed-view-heading">Detailes</h2>
+                                  </div>
+                                  <div class="d-flex">
+                                      <div class=""> 
+                                          <p>Name</p>
+                                          <p>Size</p>
+                                          <p>Type</p>
+                                          <p>Uses</p>
+                                          <p>Pice</p>
+                                      </div>
+                                      <div class="ml-auto">
+                                          <p>:Magic Mug</p>
+                                          <p>:32cm height</p>
+                                          <p>:Mug</p>
+                                          <p>:Purpise of drinck something with love</p>
+                                          <p>:650rs.</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-12 col-md-12 col-lg-6 order-contact-detailes mt-4">
+                              <h2 class="product-detailed-view-heading">
+                                  Contact Detailes
+                              </h2>
+                              <p>Phone No:<li>9642921286</li>
+                                  <li>9642921286</li>
+                              </p>
+                              <p>Gmail: rkgifts.enterprices@gmail.com</p>
+                          </div>
+                          <div class="col-12 detailed-view-button-section mb-4">
+                              <button class="button-order-brows-more" onclick="display('sectionHome')">Brows More</button> 
+                              <button class="button-order-buy-now" onclick="display('sectionBuyNowButton')">Buy Now </button>
+                          </div>
+                          <div class="col-12 follow-us-section">
+                              <h1 class="">Follow Us</h1>
+                              <div class="follow-us-icons">
+                                <a href="https://www.instagram.com/rk_best_gifts/">
+                                  <i class="fa-brands fa-instagram follow-us-icon"></i>
+                                </a>
+                                <a href="">
+                                  <i class="fa-brands fa-facebook follow-us-icon"></i>
+                                </a>
+                                <a href="">
+                                  <i class="fa-brands fa-whatsapp follow-us-icon"></i>
+                                </a>
+                                </div>
+                          </div>
+                      </div>
+              </div>
+          </div>
+    </div>
+    <div id="sectionBuyNowButton">
+      <div class="buy-now-section">
+          <div  class="conatiner">
+              <div class="row">
+                  <div class="col-12 col-md-12 col-lg-4">
+                      <div class="buy-now-section-contact-detailes-section">   
+                          <h3 class="buy-now-section-contact-detailes-heading">Contact Detailes</h3>     
+                          <ul>Ranish Kalyan Maddella</ul>
+                          <ul>+91 9160854426</ul>
+                          <ul>+91 9160854426</ul>
+                          <ul>rkgifts.enterprices@gmail.com</ul>
+                          <ul>
+                              <i class="fa-brands fa-facebook mr-1"></i>
+                              <a href="" class="card-link" id="socialMediaRedirect1">rkgifts.123</a>
+                          </ul>
+                          <ul>
+                              <i class="fa-brands fa-instagram mr-1"></i>
+                              <a href="https://www.instagram.com/rk_best_gifts/" class="card-link" id="socialMediaRedirect2">ra_gifts_bestgifts</a>
+                          </ul>
+                          <button class="button-order-brows-more" onclick="display('sectionHome')">Brows More</button>
+                          <button class="button-back" onclick="display('sectionProductDetailedView')">back</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>
+
+
